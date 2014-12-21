@@ -10,7 +10,7 @@ read_data()
 unzip("data.zip")
 
 ### Read and merge the training and test sets to create one data set.
-### The data.zip file is unziped in the UCI HAR Dataset directory.
+### The data.zip file is unzipped in the UCI HAR Dataset directory.
 
 ## Reading the train data set.
 trainData <- read.table("./UCI HAR Dataset/train/X_train.txt")
